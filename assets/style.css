@@ -11,6 +11,10 @@ body {
 	transition: background 500ms ease;
 }
 
+.contents {
+	justify-content: center;
+}
+
 p, li {
 	font-size:  22px;
 	line-height: 30px;
@@ -24,7 +28,6 @@ p, li {
 
 h1, p {
 	margin-bottom:  20px;
-	text-align: center;
 }
 
 ul, ol {
