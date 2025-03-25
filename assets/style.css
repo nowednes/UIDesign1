@@ -1,64 +1,65 @@
-* {
-	margin:  50px;
-	padding:  0px;
-	box-sizing: border-box;
+/*이름 폰트*/
+@font-face {
+    font-family: 'PFStardust';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
-/* adjusting fonts */
-
-body {
-	font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
-	transition: background 500ms ease;
-}
-
-.contents {
-	justify-content: center;
-}
-
-p, li {
-	font-size:  22px;
-	line-height: 30px;
-}
-
-/* adjusting spacing */
-
-#left-column {
-	padding: 20px;
-}
-
-h1, p {
-	margin-bottom:  20px;
-}
-
-ul, ol {
-	margin-left: 20px;
-}
-
-img {
-	max-width: 100%;
-	height:  auto;
-}
-
-/* uncomment the code below to set the grid */
-
-/*#grid {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+/*favorites 폰트*/
+@font-face {
+    font-family: 'DepartureMono-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2409-1@1.0/DepartureMono-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
-	overflow: hidden;
+  margin-top: 80px;
+  justify-content: center;
+  background-color: #fffcde;
 }
 
-.scroll {
-	padding:  20px;
-	overflow: scroll;
-	height: 100vh;
+h3 {
+  font-family: 'PFStardust', sans-serif;
+  font-size: 18pt;
 }
 
-#left-column {
+.name {
+  font-family: 'PFStardust', sans-serif;
+  text-align: center;
+  font-size: 30pt;
+  margin-bottom: 0px;
 }
 
-#right-column {
-	background: #333;
+.profile {
+  justify-content: center;
+  text-align: center;
+}
+
+.desc {
+  margin-top: 0px;
+  font-family: 'PFStardust', sans-serif;
+  font-size: 18pt;
+}
+
+.favorites {
+  background-color: white;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'DepartureMono-Regular', sans-serif;
+}
+
+.exercise {
+  background-color: white;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'DepartureMono-Regular', sans-serif;
+}
 }*/
