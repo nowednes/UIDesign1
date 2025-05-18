@@ -113,3 +113,17 @@ p {
   width: 500px;
   font-size: 10pt;
 }
+
+.projects {
+  background-color: white;
+  border: thin solid black;
+  border-radius: 15px;
+  margin: 5px auto;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'DepartureMono-Regular', sans-serif;
+  width: 500px;
+  font-size: 10pt;
+}
