@@ -33,8 +33,8 @@ h1 {
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
 	justify-content: space-evenly;
-	border: 20px #DCAD67;
-	background: ##8B5927;
+	border: 20px solid #DCAD67;
+	background: #8B5927;
 }
 
 .shelf {
@@ -43,7 +43,7 @@ h1 {
 	flex-direction: row;
 	align-items: bottom;
 	justify-content: space-evenly;
-	border-bottom: 20px #FFE4B5;
+	border-bottom: 20px solid #FFE4B5;
 	padding: 10px 10px 0px 0px;
 }
 
