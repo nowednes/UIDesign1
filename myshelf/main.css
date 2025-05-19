@@ -12,7 +12,7 @@ body {
 	align-items: center;
 	min-height: 100vh;
   	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  	background: black;
+  	background: white;
 }
 
 h1 {
@@ -32,7 +32,7 @@ h1 {
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
 	justify-content: space-evenly;
-	border: 20px solid grey;
+	border: 20px brown;
 	background: #333;
 }
 
