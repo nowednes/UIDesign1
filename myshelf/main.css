@@ -23,6 +23,7 @@ h1 {
 	background: white;
 	border-radius: 20px;
 	font-size: 18px;
+	border: 2px black;
 }
 
 #bookcase {
@@ -32,7 +33,7 @@ h1 {
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
 	justify-content: space-evenly;
-	border: 20px brown;
+	border: 20px solid grey;
 	background: #333;
 }
 
