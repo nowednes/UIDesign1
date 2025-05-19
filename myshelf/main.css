@@ -23,7 +23,7 @@ h1 {
 	background: white;
 	border-radius: 20px;
 	font-size: 18px;
-	border: 2px black;
+	border-color: black;
 }
 
 #bookcase {
