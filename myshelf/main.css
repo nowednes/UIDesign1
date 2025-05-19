@@ -21,9 +21,9 @@ h1 {
 	left: 20px;
 	padding: 7px 20px;
 	background: white;
+	border: 1px solid black;
 	border-radius: 20px;
 	font-size: 18px;
-	border-color: black;
 }
 
 #bookcase {
