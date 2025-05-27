@@ -132,10 +132,23 @@ p {
 body.dark {
   background: #30333d;
   color: white;
-  favorites.background-color: #30333d;
-  favorites.border: thin solid white;
-  exercise.background-color: #30333d;
-  exercise.border: thin solid white;
-  a:link.color: white;
-  a:visited.color: white;
+}
+
+body.dark a:link {
+  color: white;
+}
+
+body.dark a:visited {
+  color: white;
+}
+
+
+body.dark favorites {
+  background-color: #30333d;
+  border: thin solid white;
+}
+
+body.dark exercise {
+  background-color: #30333d;
+  border: thin solid white;
 }
