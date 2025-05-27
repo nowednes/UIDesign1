@@ -136,6 +136,6 @@ body.dark {
   favorites.border: thin solid white;
   exercise.background-color: #30333d;
   exercise.border: thin solid white;
-  link.color: white;
-  visited.color: white;
+  a:link.color: white;
+  a:visited.color: white;
 }
