@@ -142,6 +142,10 @@ body.dark a:visited {
   color: white;
 }
 
+body.dark a:hover {
+  color: pink;
+}
+
 
 body.dark .favorites {
   background-color: #30333d;
