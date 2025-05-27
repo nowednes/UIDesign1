@@ -130,10 +130,12 @@ p {
 
 /* 다크모드 */
 body.dark {
-  background: #333;
+  background: #30333d;
   color: white;
-  favorites.background-color: #333;
+  favorites.background-color: #30333d;
   favorites.border: thin solid white;
-  exercise.background-color: #333;
+  exercise.background-color: #30333d;
   exercise.border: thin solid white;
+  link.color: white;
+  visited.color: white;
 }
