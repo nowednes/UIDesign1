@@ -143,12 +143,18 @@ body.dark a:visited {
 }
 
 
-body.dark favorites {
+body.dark .favorites {
   background-color: #30333d;
   border: thin solid white;
 }
 
-body.dark exercise {
+body.dark .exercise {
   background-color: #30333d;
   border: thin solid white;
 }
+
+body.dark .projects {
+  background-color: #30333d;
+  border: thin solid white;
+}
+
