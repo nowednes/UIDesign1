@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'DepartureMono-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2409-1@1.0/DepartureMono-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Galmuri14';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2506-1@1.0/Galmuri14.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  margin-top: 120px;
+}
+
+h1 {
+  width: 1130px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  font-family: 'DepartureMono-Regular', sans-serif;
+  font-size: 20pt;
+}
+
+.form {
+  width: 1130px;
+  margin: 0 auto;
+}
+
+.rands {
+  display: flex;
+  align-items: center;
+}
+
+h5 {
+  font-family: 'DepartureMono-Regular', sans-serif;
+}
+
+input[type=text] {
+  font-family: 'DepartureMono-Regular', sans-serif;
+  width: 200px;
+  height: 20px;
+  margin-bottom: none;
+  margin-right: 30px;
+  border: 1px solid black;
+  padding: none;
+}
+
+input[type=email] {
+  font-family: 'DepartureMono-Regular', sans-serif;
+  width: 200px;
+  height: 20px;
+  margin-top: none;
+  margin-bottom: 20px;
+  margin-left: 26px;
+  padding: none;
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'DepartureMono-Regular', sans-serif;
+  font-size: 10pt;
+}
+
+.recommend {
+  width: 720px;
+  height: 500px;
+  overflow: visible;
+  margin-right: 10px;
+}
+
+summary {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: lightgrey;
+  box-shadow: 3px 3px black;
+}
+
+summary:hover {
+  background-color: #E9E9E9;
+  color: blue;
+}
+
+.listsmall {
+  background-color: white;
+  box-shadow: none;
+}
+
+.listsmall:hover {
+  color: blue;
+  background-color: white;
+}
+
+p {
+  margin-left: 30px;
+}
+
+p:hover {
+  color: blue;
+}
+
+.textfield {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: lightgrey;
+  border: 1px solid black;
+  width: 400px;
+  height: 500px;
+  box-shadow: 3px 3px black;
+}
+
+.bar {
+  height: 35px;
+  width: 100%;
+  background-color: blue;
+}
+
+/* textarea를 감싸는 div: 가운데 정렬 */
+.main-content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* 버튼을 오른쪽 정렬 */
+.button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+textarea {
+  width: 91%;
+  height: 380px;
+  border: thin solid black;
+  resize: none;
+  overflow: auto;
+  font-family: 'DepartureMono-Regular', sans-serif;
+  font-size: 10pt;
+  line-height: 1.6;
+  margin-top:8px;
+  padding: 10px;
+  box-shadow: inset 2px 2px black;
+}
+
+button {
+  border: 1px solid black;
+  width: 80px;
+  height: 25px;
+  margin-top: 7px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-family: 'DepartureMono-Regular', sans-serif;
+}
+
+.copy {
+  margin-right: 4px;
+}
+
+.send {
+  margin-right: 8px;
+}
+
+button:hover {
+  width: 84px;
+  height: 29px;
+}
+
+button:active {
+  width: 80px;
+  height: 25px;
+}

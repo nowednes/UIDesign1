@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <title>d</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  
+  <body>
+    
+    <h1 class="title">Dear Professor...</h1> <!-- 사이트 헤더 -->
+    
+    <div class="form">
+      <div class="rands">
+        <h5>To.</h5><input type="text" name="recipient" id="recipient" placeholder="Recipient">
+        <h5>From.</h5><input type="text" name="sender" id="sender" placeholder="sender">
+      </div>   
+    
+      <div class="toemail">
+        <input type="email" name="toemail" id="toemail" placeholder="email@example.com">
+      </div>
+    </div>
+    
+    <div class="container"> <!-- 전체 박스 -->
+      
+      <div class="recommend"> <!-- 문장 추천 박스 -->
+      
+      <div class="list">
+        
+        <details>
+        <summary cless="listbig">Greetings</summary>
+          <p>Dear Professor <i>[recipient]</i>.</p><hr />
+          <p>Hello, Professor <i>[recipient]</i>.</p><hr />
+          <p>Good morning/afternoon, Professor <i>[recipient]</i>.</p><hr />
+        </details>
+        
+        <details>
+        <summary cless="listbig">Self Indroduction</summary>
+          <p>I’m <i>[sender]</i>, taking <i>[classname]</i>.</p><hr />
+          <p>I'm <i>[sender]</i> in your <i>[classname]</i> class.</p><hr />
+          <p>I'm <i>[sender]</i>, majoring in <i>[department]</i>.</p><hr />
+        </details>
+        
+        <details>
+        <summary cless="listbig">Purpose</summary>
+          <p>I’d like to ask a question about <i>[purpose]</i>.</p><hr />
+          <p>I’m writing to ask about <i>[purpose]</i>.</p><hr />
+          <p>I have an inquiry regarding <i>[purpose]</i>.</p><hr />
+        </details>
+        
+        <details> <!-- body 열기 -->
+        <summary cless="listbig">Body</summary>
+          
+          <details>
+          <summary class="listsmall">The attendance</summary>
+            <p>I’ll be unable to attend the class today due to <i>[reason]</i>.</p><hr />
+            <p>I’m afraid that I’ll be absent on the class due to <i>[reason]</i>.</p><hr />
+            <p>I’m sorry that I missed your class on the <i>[date]</i> your class due to <i>[reason]</i>.</p><hr />
+            <p>I’ll follow up the class document and the assignment.</p><hr />
+            <p>I’d like to know if I can get an excused absence.</p><hr />
+            <p>I can present my attendance acknowledgement form.</p><hr />
+          </details>
+          
+          <details>
+          <summary class="listsmall">The lecture</summary>
+            <p>I have a few questions regarding today’s lecture.</p><hr />
+            <p>Could you explain what you meant by <i>[contents]?</i></p><hr />
+            <p>I have a question regarding the class schedule.</p><hr />
+            <p>Is there a class on <i>[date]</i>?</p><hr />
+            <p>Can I know when the supplementary lecture date?</p><hr />
+            <p>I wonder when the exam date is.</p><hr />
+            <p>I’d like to know when the end of the semester is.</p><hr />
+          </details>
+          
+          <details>
+          <summary class="listsmall">The assignment</summary>
+            <p>I’d like to check again the assignment submission date.</p><hr />
+            <p>I’m so sorry but I missed the deadline for the assignment.</p><hr />
+            <p>I’m having trouble completing the assignment on time due to <i>[reason]</i></p><hr />
+            <p>Would it be possible to get an extension on the deadline?</p><hr />
+            <p>Is it possible to submit after the deadline?</p><hr />
+            <p>There’s no submission box for the assignment.</p><hr />
+            <p>I’d like to know when the end of the semester is.</p><hr />
+            <p>I’m struggling with my project.</p><hr />
+            <p>I’d like to ask about the direction of my assignment.</p><hr />
+            <p>Is it okay to keep going or do I need a correction?</p><hr />
+            <p>I’m wondering if you could give me any feedback or comments for my project.</p><hr />
+          </details>
+          
+          <details>
+          <summary class="listsmall">The registration</summary>
+            <p>I’d like to request quota exceeding course registration.</p><hr />
+            <p>I’d like to know if doing a sit-in on your class would be allowed.</p><hr />
+            <p>It would be a pleasure if I could take your class.</p><hr />
+          </details>
+          
+          <details>
+          <summary class="listsmall">The meeting</summary>
+            <p>Can I discuss further with you in person?</p><hr />
+            <p>I’d like to visit you during your office hour.</p><hr />
+            <p>Could you let me know what your office hour are?</p><hr />
+          </details>
+          
+        </details> <!-- body 닫기 -->
+        
+        <details>
+        <summary cless="listbig">Request for Reply</summary>
+          <p>I’m looking forward to hearing from you.</p><hr />
+          <p>I’d appreciate it if you could offer help to me.</p><hr />
+        </details>
+        
+        <details>
+        <summary cless="listbig">Sign Off</summary>
+          <p>With regards, <i>[sender]</i>.</p><hr />
+          <p>Yours sincerely, <i>[sender]</i>.</p><hr />
+          <p>Thank you, <i>[sender]</i>.</p><hr />
+        </details>
+        
+      </div>
+      
+      </div>
+      
+    <div class="textfield">
+      <div class="bar"></div>
+      <div class="main-content">
+        <textarea id="myTextarea"></textarea>
+      </div>
+      <div class="button-wrapper">
+        <button class="copy">Copy</button>
+        <button class="send" id="sendBtn">Send</button>
+      </div>
+    </div>
+      
+    </div>
+    
+    
+    <footer>
+    </footer>
+    
+    <script src="script.js"></script>
+    
+  </body>
+  
+</html>
