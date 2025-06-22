@@ -120,6 +120,13 @@ p:hover {
   height: 35px;
   width: 100%;
   background-color: blue;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+img {
+  margin-right: 5px;
 }
 
 /* textarea를 감싸는 div: 가운데 정렬 */
