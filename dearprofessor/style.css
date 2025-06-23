@@ -13,7 +13,14 @@
 }
 
 body {
+  height: 100%;
   margin-top: 120px;
+  background-image : url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/e6b44614-3be2-44bb-af8b-ae8449bf1690/dg4x6da-292bf848-91b9-4d08-90c8-5a81267fb550.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  text-shadow: 1px 1px 1px black;
 }
 
 h1 {
@@ -22,6 +29,7 @@ h1 {
   padding-bottom: 20px;
   font-family: 'DepartureMono-Regular', sans-serif;
   font-size: 20pt;
+  color: yellow;
 }
 
 .form {
@@ -36,6 +44,7 @@ h1 {
 
 h5 {
   font-family: 'DepartureMono-Regular', sans-serif;
+  color: white;
 }
 
 input[type=text] {
@@ -70,8 +79,9 @@ input[type=email] {
 .recommend {
   width: 720px;
   height: 500px;
-  overflow: visible;
-  margin-right: 10px;
+  overflow-x: visible;
+  overflow-y: scroll;
+  padding-right: 10px;
 }
 
 summary {
@@ -79,6 +89,7 @@ summary {
   padding: 10px;
   background-color: lightgrey;
   box-shadow: 3px 3px black;
+  text-shadow: none;
 }
 
 summary:hover {
@@ -87,21 +98,25 @@ summary:hover {
 }
 
 .listsmall {
-  background-color: white;
+  background-color: transparent;
   box-shadow: none;
+  text-shadow: 1px 1px 1px black;
+  color: white
 }
 
 .listsmall:hover {
   color: blue;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-shadow: none;
 }
 
 p {
   margin-left: 30px;
+  color: white;
 }
 
 p:hover {
-  color: blue;
+  color: yellow;
 }
 
 .textfield {
